@@ -6,9 +6,7 @@ on:
 name: backend ci/cd
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
       - name: Configure AWS credentials
